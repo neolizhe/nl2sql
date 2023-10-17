@@ -12,4 +12,5 @@ Use case based on LangChain in nl2sql demo
     - 6. 无法正确输出结果是，SQL chain启动ReAct机制，调用Student LLM 重新生成重复进行3~4步；
          失败超过2~3次，对SQL语句加密并调用Teacher LLM修改语句；
     - 7. 若SQL运行正确
-    ![img.png](img.png)
+    ![image](https://github.com/neolizhe/nl2sql/assets/89385155/c2da9827-1c77-4a61-970f-7d8c9e9aea5a)
+
