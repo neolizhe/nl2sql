@@ -1,0 +1,85 @@
+{
+  "gpt-3.5": {
+    "api_type": "azure",
+    "api_base": "https://camc-datacenter-test.openai.azure.com/",
+    "api_version": "2023-07-01-preview",
+    "api_key": "28eb23f1e84a4ec2842c5dbbdbb95184",
+    "resource_name": "camc-datacenter-test",
+    "deploy_list": [
+      {
+        "deploy_name": "davinci",
+        "model_name": "text-davinci-002",
+        "expire_date": "2024-03-31",
+        "max_speed": 240000
+      },
+      {
+        "deploy_name": "test-deploy",
+        "model_name": "gpt-35-turbo",
+        "expire_date": "2024-03-31",
+        "max_speed": 80000
+      },
+      {
+        "deploy_name": "003",
+        "model_name": "text-davinci-003",
+        "expire_date": "2024-03-31",
+        "max_speed": 60000
+      }
+    ]
+  },
+  "gpt-4-8k": {
+    "api_type": "azure",
+    "api_base": "https://g4-8k.openai.azure.com/",
+    "api_version": "2023-07-01-preview",
+    "api_key": "eadb49506d554692900e195b5a2d6fd9",
+    "resource_name": "g4-8k",
+    "deploy_list": [
+      {
+        "deploy_name": "g4-8k",
+        "model_name": "gpt-4",
+        "expire_date": "2024-03-31",
+        "max_speed": 1000
+      },
+      {
+        "deploy_name": "g4-32k",
+        "model_name": "gpt-4-32k",
+        "expire_date": "2024-03-31",
+        "max_speed": 1000
+      }
+    ]
+  },
+  "gpt-4-canada": {
+    "api_type": "azure",
+    "api_base": "https://g4-canadae.openai.azure.com/",
+    "api_version": "2023-07-01-preview",
+    "api_key": "62b0a2cb7ebf48c98a3ba57a827e7cdc",
+    "resource_name": "g4-canadaE",
+    "deploy_list": [
+      {
+        "deploy_name": "g4-canada4",
+        "model_name": "gpt-4",
+        "expire_date": "2024-03-31",
+        "max_speed": 10000
+      },
+      {
+        "deploy_name": "g4-canada3",
+        "model_name": "gpt-4",
+        "expire_date": "2024-03-31",
+        "max_speed": 10000
+      },
+      {
+        "deploy_name": "g4-canada2",
+        "model_name": "gpt-4",
+        "expire_date": "2024-03-31",
+        "max_speed": 10000
+      },
+      {
+        "deploy_name": "g4-canada1",
+        "model_name": "gpt-4",
+        "expire_date": "2024-03-31",
+        "max_speed": 10000
+      }
+    ]
+  }
+
+}
+
